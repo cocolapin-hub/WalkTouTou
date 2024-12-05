@@ -1,0 +1,47 @@
+.welcome-text {
+    text-align: center;
+}
+
+.image-container {
+    text-align: center;
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+/* Conteneur pour les boutons */
+.button-container {
+    display: flex;
+    gap: 50px; /* Espace entre les boutons */
+    margin-top: 20px; /* Espacement avec l'image */
+    align-items: center;
+    justify-content: center;
+
+}
+
+/* Styles pour les boutons */
+.button {
+    display: block;
+    width: 150px;
+    height: 150px;
+    background-size: cover; /* Adapte l'image à la taille du bouton */
+    background-position: center; /* Centre l'image */
+    text-decoration: none; /* Supprime le soulignement du texte */
+    color: rgb(44, 111, 53); /* Couleur du texte (ajustez selon votre image) */
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 150px; /* Centre le texte verticalement */
+    border-radius: 10px; /* Coins arrondis (facultatif) */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); /* Ombre */
+    transition: transform 0.3s, box-shadow 0.3s; /* Effet sur hover */
+}
+
+/* Effet au survol */
+.button:hover {
+    transform: scale(1.1); /* Agrandit légèrement */
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.4);
+}
