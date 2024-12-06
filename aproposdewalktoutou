@@ -6,12 +6,12 @@
     <title>AProposdeWalkToutou</title>
 </head>
 <body>
-    <p><i>A propos de WalkToutou</i></p><br>
-    <p><i><h3>Bienvenue aux amis des chiens!</p><br>
-    <p>Bienvenue chez WalkToutou!</p><br>
-    <p>WalkToutou est une application qui met en contact des maîtres de chiens avec des promeneurs, en toute confiance.<br>
-       Pourquoi est-ce génial chez WalkToutou?<br>
-       Nous vérifions </p>
+    <i><p>A propos de WalkToutou</p><br>
+       <p><h3>Bienvenue aux amis des chiens!</p><br>
+       <p>Bienvenue chez WalkToutou!</p><br>
+       <p>WalkToutou est une application qui met en contact des maîtres de chiens avec des promeneurs, en toute confiance.<br>
+          Pourquoi est-ce génial chez WalkToutou?<br>
+          Nous vérifions </p></h3></i>
     
 </body>
 </html>
