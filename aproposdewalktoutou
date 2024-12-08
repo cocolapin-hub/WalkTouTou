@@ -4,17 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AProposdeWalkToutou</title>
+    <!--Pour créer le clic-lien vers cette page à partir de la barre menu de la page d'accueil, il faut créer un RELATIVE PATH sur l'index.html de la page d'accueil:
+    <a href="/aproposdewalktoutou.html">À propos</a>-->
+    <style>
+        body {
+          background-image: url('DOGS FIRST.png'); 
+          background-size: contain; 
+          background-position: center;
+          background-repeat: no-repeat; 
+          height: 100vh;
+        }
+    </style>
 </head>
 <body>
-    <i><p>A propos de WalkToutou</p><br>
-       <p><h3>Bienvenue aux amis des chiens!</p><br>
-       <p>Bienvenue chez WalkToutou!</p><br>
-       <p>WalkToutou est une application qui met en contact des maîtres de chiens avec des promeneurs, en toute confiance.<br>
-          Pourquoi est-ce génial chez WalkToutou?<br>
-          Nous vérifions </p></h3></i>
-    
-</body>
-</html>
+   <i><p>A propos de WalkToutou</p><br>
+  <h2><p>Bienvenue aux amis des chiens!<br>
+         Bienvenue chez WalkToutou!<br></p>
+      <p>WalkToutou est une application qui met en contact des maîtres de chiens, et des promeneurs, en toute confiance.<br></p>
+      <p>Pourquoi est-ce génial chez WalkToutou?<br>
+         Nous faisons une <span style="color:rgb(255, 77, 0)">SELECTION</span> CONSCIENCIEUSE des promeneurs, ainsi que des clients qui veulent faire promener leur Toutou.<br>
+         Des mesures de sécurité sont intégrées dans notre app., par exemple, le TRACKING <span style="color: rgb(255, 77, 0)">GPS</span> de la promenade.<br>
+         Il est demandé aux promeneurs de ne pas prendre Toutou en photo sans l'accord préalable écrit de son maître.<br>
+         Après la promenade, vous serez encouragé à remplir, en ligne, un QUESTIONNAIRE D'<span style="color: rgb(255, 77, 0)">EVALUATION</span>" de votre expérience:<br>
+         Si vous avez confié votre Toutou à un promeneur, vous pouvez faire une évaluation de sa prestation.<br>
+         Si vous avez été responsable de la promenade, vous pouvez faire une évaluation de vos interactions avec le maître de Toutou, et avec celui–ci.<br>
+         Et <span style="color: rgb(255, 77, 0)">BONUS</span>": lors de sa promenade, Toutou peut profiter d'un système de distribution de friandises, avec l'accord préalable de son maître, bien entendu.
+       </p></h2></i>
+
 
 
 
