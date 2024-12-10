@@ -3,26 +3,56 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AProposdeWalkToutou</title>
-    <!--Pour créer le clic-lien vers cette page à partir de la barre menu de la page d'accueil, il faut créer un RELATIVE PATH sur l'index.html de la page d'accueil:
-    <a href="aproposdewalktoutou.html">À propos</a>-->
-    <style>
-        body {
-          background-image: url('DOGS FIRST.png'); 
-          background-size: contain; 
-          background-position: center;
-          background-repeat: no-repeat; 
-          height: 100vh;
-        }
-    </style>
+    <title>à Propos de WalkToutou</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
 </head>
+
 <body>
+    <header>
+        <div class="header-container">
+          <div class="logo">
+            <a href="index.html">
+              <img src="img/DOGS FIRST small.png" alt="Logo walktoutou" width="25%">
+          </div>
+          <div class="social-icons">
+            <a href="https://www.facebook.com" target="_blank" aria-label="Facebook">
+              <i class="fab fa-facebook"></i>
+            </a>
+            <a href="https://www.twitter.com" target="_blank" aria-label="Twitter">
+              <i class="fab fa-twitter"></i>
+            </a>
+            <a href="https://www.instagram.com" target="_blank" aria-label="Instagram">
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://www.linkedin.com" target="_blank" aria-label="LinkedIn">
+              <i class="fab fa-linkedin"></i>
+            </a>
+          </div>
+        </div>
+        <nav>
+          <ul class="menu">
+            <li class="dropdown">
+              <a href="#">WalkTouTou</a>
+              <ul class="submenu">
+                <li><a href="#">À propos</a></li>
+                <li><a href="#">Nous Contacter</a></li>
+              </ul>
+            </li>
+            <li><a href="#">Sign up</a></li>
+            <li><a href="#">Télécharger l'app</a></li>
+          </ul>
+        </nav>
+        <!-- Inclusion de la librairie Font Awesome pour les icônes -->
+        <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+      </header>
+
    <i><p>A propos de WalkToutou</p><br>
   <h2><p>Bienvenue aux amis des chiens!<br>
          Bienvenue chez WalkToutou!<br></p>
       <p>WalkToutou est une application qui met en contact des maîtres de chiens, et des promeneurs, en toute confiance.<br></p>
       <p>Pourquoi est-ce génial chez WalkToutou?<br>
-         Parce que chez WalkToutou, nous comprenons qu'un chien est souvent le meilleur ami de son maître, ou un membre à part entière de sa famille.<br> 
          Nous faisons une <span style="color:rgb(255, 77, 0)">SELECTION</span> CONSCIENCIEUSE des promeneurs, ainsi que des clients qui veulent faire promener leur Toutou.<br>
          Des mesures de sécurité sont intégrées dans notre app., par exemple, le TRACKING <span style="color: rgb(255, 77, 0)">GPS</span> de la promenade.<br>
          Il est demandé aux promeneurs de ne pas prendre Toutou en photo sans l'accord préalable écrit de son maître.<br>
@@ -32,6 +62,8 @@
          Et <span style="color: rgb(255, 77, 0)">BONUS</span>: lors de sa promenade, Toutou peut profiter d'un système de distribution de friandises, avec l'accord préalable de son maître, bien entendu.
        </p></h2></i>
 
+</body>
+</html>
 
 
 
