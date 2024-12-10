@@ -1,0 +1,157 @@
+.text-field, .field-label, .field-label-2, .text-field-2, .textarea, .form {
+  padding-right: 481px;
+}
+
+.submit-button {
+  vertical-align: baseline;
+  padding-right: 481px;
+}
+
+.field-label-3 {
+  width: 600px;
+  height: 40px;
+}
+
+.text-field-3 {
+  border: 1px solid #000;
+  border-radius: 12px;
+  width: 50%;
+  font-family: Merriweather, serif;
+  position: static;
+  box-shadow: 7px -5px 7px -2px #0003;
+}
+
+.field-label-4 {
+  border: 1px solid #000;
+  border-radius: 10px;
+  width: 50%;
+  padding-right: 0;
+  font-family: Merriweather, serif;
+}
+
+.submit-button-2 {
+  outline-offset: 0px;
+  color: #181717;
+  background-color: #31c209de;
+  background-image: radial-gradient(circle, #23c923, #fff);
+  border-radius: 13px;
+  outline: 3px #111010;
+  font-family: Merriweather, serif;
+  font-weight: 700;
+  box-shadow: 0 0 10px #0003, 0 2px 5px #0003;
+}
+
+.body {
+  background-color: #59e559;
+  background-image: url('https://d3e54v103j8qbb.cloudfront.net/img/background-image.svg');
+  background-position: 0 0;
+  background-size: auto;
+  border: 1px solid #944381;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px #0003;
+}
+
+.section {
+  background-image: radial-gradient(circle, #1cbd51, #fff), radial-gradient(circle, #000, #fff), radial-gradient(circle, #41cc2f 63%, #fff);
+  height: 100vh;
+}
+
+.div-block {
+  background-image: radial-gradient(circle farthest-side, #3cdb5c 49%, #fff);
+  height: 50vh;
+}
+
+.div-block-2 {
+  background-image: url('https://d3e54v103j8qbb.cloudfront.net/img/background-image.svg'), url('../images/contentbackgroundrover.jpg');
+  background-position: 50%, 0 0;
+  background-size: cover, auto;
+  height: 50px;
+}
+
+.section-2 {
+  height: 100vh;
+  display: flex;
+}
+
+.div-block-3 {
+  background-image: radial-gradient(circle, #25d136, #fff);
+  height: 50vh;
+}
+
+.div-block-4 {
+  background-image: url('../images/contentbackgroundrover.jpg'), url('../images/contentbackgroundrover.jpg'), url('../images/contentbackgroundrover.jpg'), radial-gradient(circle, #18e45c, #fff);
+  background-position: 0 0, 0 0, 50% 0, 0 0;
+  background-size: cover, cover, auto, auto;
+  height: 50vh;
+}
+
+.form-2 {
+  margin-top: -44px;
+  padding-top: 0;
+  padding-left: 7px;
+}
+
+.div-block-5 {
+  grid-column-gap: 35px;
+  grid-row-gap: 35px;
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.div-block-6 {
+  width: 55%;
+  padding-left: 67px;
+}
+
+.div-block-7 {
+  width: 50%;
+  margin-top: 29px;
+  margin-left: 0;
+  padding-left: 48px;
+  display: flex;
+}
+
+.form-block {
+  padding-left: 12px;
+}
+
+.text-block {
+  margin-left: -107px;
+  padding-left: 0;
+  font-family: Merriweather, serif;
+}
+
+.rich-text-block {
+  width: 100%;
+  margin-top: 5px;
+  margin-left: -151px;
+  margin-right: 47px;
+  padding-left: 30px;
+  padding-right: 21px;
+  font-family: Merriweather, serif;
+  font-weight: 700;
+  display: block;
+}
+
+.image, .image-2 {
+  display: inline-flex;
+}
+
+@media screen and (max-width: 991px) {
+  .text-field-3 {
+    width: 40%;
+  }
+
+  .submit-button-2 {
+    text-align: left;
+    background-color: #25d136;
+    background-image: radial-gradient(circle farthest-side, #1fac1f 75%, #fff);
+    border-radius: 8px;
+  }
+
+  .form-2 {
+    margin-left: 12px;
+  }
+}
