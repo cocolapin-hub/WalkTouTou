@@ -79,14 +79,14 @@
 }
 
 .div-block-4 {
-  background-image: url('../images/contentbackgroundrover.jpg'), url('../images/contentbackgroundrover.jpg'), url('../images/contentbackgroundrover.jpg'), radial-gradient(circle, #18e45c, #fff);
+  background-image: url('img/contentbackgroundrover.jpg'), radial-gradient(circle, #18e45c, #fff);
   background-position: 0 0, 0 0, 50% 0, 0 0;
   background-size: cover, cover, auto, auto;
   height: 50vh;
 }
 
 .form-2 {
-  margin-top: -44px;
+  margin-top: 10px;
   padding-top: 0;
   padding-left: 7px;
 }
