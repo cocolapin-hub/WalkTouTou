@@ -2,15 +2,22 @@
 .image-container {
     text-align: center;
 }
-
+.image-container img:hover {
+  -webkit-animation:spin 3s linear infinite;
+    -moz-animation:spin 3s linear infinite;
+    animation:spin 3s linear infinite;
+}
 .image-container img {
-    max-width: 100%;
+    max-width: 50%%;
     height: auto;
 }
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
 
 body {
     background-color: rgb(219, 214, 253);
-    background-image: url(Parc\ royal\ flou\ png.png);
+    background-image: url(img/Parc\ royal\ flou\ png.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -29,15 +36,15 @@ body {
   padding: 10px 20px;
 }
 header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 20px;
-    margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
-    position: sticky;
-    top: 0; /* Fixe le header en haut */
-    z-index: 1000; /* Met le header au-dessus des autres éléments */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  position: sticky;
+  top: 0; /* Fixe le header en haut */
+  z-index: 1000; /* Met le header au-dessus des autres éléments */
     
 
   }
@@ -45,6 +52,8 @@ header {
   max-width: 300px;
   height: auto;
 }
+
+
 /* Style de la section des icônes */
 .social-icons {
   display: flex;
@@ -60,7 +69,7 @@ header {
 
 .social-icons a:hover {
   transform: scale(1.2); /* Effet d'agrandissement au survol */
-  color: #1da1f2; /* Exemple de couleur de survol */
+  color: #25a1ed; /* Exemple de couleur de survol */
 }
 
   .logo a {
@@ -83,9 +92,11 @@ header {
     color: rgb(105, 54, 34);
     font-size: 1.3rem;
     font-weight: 501;
-    padding: 10px 15px;
+    padding: 5px 10px;
     display: block;
     text-decoration: none;
+    background-color: #7bb66921;
+
   }
   
   /* Sous-menu (hidden par défaut) */
@@ -144,10 +155,13 @@ header {
     width: 500px;
     height: 300px;
     text-decoration: none; /* Supprime le soulignement du texte */
-    color: rgb(255, 255, 255); /* Couleur du texte (ajustez selon votre image) */
+    color: rgb(252, 251, 246); /* Couleur du texte (ajustez selon votre image) */
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 30px;
     font-weight: bold;
     text-align: center;
+    padding-right: 50px;
+    padding-left: 50px;
     background-size: cover; /* Adapte l'image à la taille du bouton */
     border-radius: 20px; /* Coins arrondis (facultatif) */
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); /* Ombre */
@@ -176,7 +190,7 @@ header {
   transition: transform 0.3s, box-shadow 0.3s; /* Effet sur hover */
 }
 
-i, h2, p {
+h2, p {
   color: white;
   text-align: center;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
